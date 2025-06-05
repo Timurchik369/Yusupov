@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-child-1 img {
+    height: 40px;
+}
+
+.header-child-2 a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #5b5b5b;
+    transition: color 0.3s ease;
+}
+
+.header-child-2 a:hover {
+    color: #458ff6;
+}
+
+.main-start {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-text{
+    width: 30%;
+}
+.main-rasm {
+    width: 609;
+    height: 466.68115234375;
+    top: 178px;
+    left: 701px;
+
+}
+
+.virtual-text {
+    width: 421.2134704589844;
+    height: 98.24866485595703;
+    top: 263.09px;
+    left: 130px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0%;
+
+}
+
+.virtual-text-2 {
+    width: 440;
+    height: 84.21314239501953;
+    top: 387.66px;
+    left: 130px;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+
+.Button {
+    background-color: aqua;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+
+
+/* Header sarlavha */
+header {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: yellow;
+}
+
+/* Navigatsiya linklari */
+nav a {
+    margin: 0 15px;
+    color: #e0e0ff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Asosiy kontent joylashuvi */
+
+.bir-parent {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* Har bir karta uchun dizayn */
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    color: white;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 14px;
+    margin: 0 5px 10px;
+}
+
+
+
+.Button1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
